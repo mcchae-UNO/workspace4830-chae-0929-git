@@ -31,6 +31,7 @@ public class MyServlet extends HttpServlet {
 		response.getWriter().append("Hello World!"); 
 		response.getWriter().println("<h1>Hello World 2!</h1>"); 
 		String x = "<p>Hello World 3!</p>"; 
+		// git check
 		response.getWriter().println(x); 
 	}
 
